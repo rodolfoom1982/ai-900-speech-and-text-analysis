@@ -19,11 +19,19 @@ Para realizar estes laboratórios, é necessário criar uma [Subscrição do Mic
 
 <br>
 
-## Aprovisionamento dos recursos do Azure AI Service
+## LAB 1 - Introdução
 
-Para executar tanto o LAB 1 quanto o LAB 2, antes de mais nada, é necessário aprovisionar o serviço Azure IA Service.
+O serviço de Fala de IA do Azure transcreve fala em texto e texto em fala audível.
 
-Para realizar o aprovisionamento, realize os seguintes passos:
+Você pode usar o AI Speech para criar um aplicativo que possa transcrever anotações de reuniões ou gerar texto a partir da gravação de entrevistas.
+
+Neste laboratório, serão abordados os recursos do Azure AI Speech usando o Azure AI Speech Studio.
+
+<br>
+
+## LAB 1 - Aprovisionamento dos recursos do Azure AI Service
+
+Para executar o LAB 1 é necessário aprovisionar o serviço Azure IA Service, atravé os seguintes passos:
 
 1) Acesse o [Azure Portal](https://portal.azure.com/) e efetue o login com a sua conta Microsoft
 2) Efetue as configurações conforme apresentadas abaixo:
@@ -36,17 +44,7 @@ Para realizar o aprovisionamento, realize os seguintes passos:
 
 <br>
 
-## LAB 1 - Introdução
-
-O serviço de Fala de IA do Azure transcreve fala em texto e texto em fala audível.
-
-Você pode usar o AI Speech para criar um aplicativo que possa transcrever anotações de reuniões ou gerar texto a partir da gravação de entrevistas.
-
-Neste laboratório, serão abordados os recursos do Azure AI Speech usando o Azure AI Speech Studio.
-
-<br>
-
-## LAB 1 - Explorando a conversão de voz em texto no Speech Studio
+## LAB 1 - Explorando a conversão de voz em texto no Speech Studio (legendagem)
 
 1) Acessar o [Azure AI Speech Studio](https://speech.microsoft.com/)
 2) Aqui é necessário associar o AI Speech Studio ao recurso Azure IA Service, que foi aprovisionado [anteriormente](#Aprovisionamento-dos-recursos-do-Azure-AI-Service):
@@ -65,52 +63,75 @@ Neste laboratório, serão abordados os recursos do Azure AI Speech usando o Azu
 
    > ![alt text](readmeFiles/images/005.png)
 
-4) Esta *feature* permite utilizar vídeos de amostra previamente carregados. Porém, optei por carregar um vídeo próprio para testar a efetividade (o vídeo que utilizei está disponível neste [link](https://github.com/rodolfoom1982/ai-900-speech-and-text-analysis/blob/main/inputs/videoSpeechToText.mp4):
+4) Esta *feature* permite utilizar vídeos de amostra previamente carregados. Porém, optei por carregar um vídeo próprio para testar a efetividade (o vídeo que utilizei está disponível neste [link](inputs/videoSpeechToText.mp4):
 
    > ![alt text](readmeFiles/images/006.png)
 
 
+5) Existem vários parâmetros que podem ser configurados para melhorar a legendagem do vídeo:
+
+   > ![alt text](readmeFiles/images/007.png)
+
+6) Seguem os detalhes de cada uma das configurações de legendagem:
+
+   > ***Limite parcial estável:***
+   > ---
+   > ![alt text](readmeFiles/images/009.png)
+
+   ---
+   
+   > ***Identificação de idioma:***
+   > ---
+   > ![alt text](readmeFiles/images/010.png)
+
+   ---
+   
+   > ***Identificação de idioma no início:***
+   > ---
+   > ![alt text](readmeFiles/images/011.png)
+
+   ---
+   
+   > ***Identificação de idioma contínuo:***
+   > ---
+   > ![alt text](readmeFiles/images/012.png)
+
+   ---
+   
+   > ***Lista de frases:***
+   > ---
+   > ![alt text](readmeFiles/images/013.png)
+
+   ---
+   
+   > ***Ponto de extremidade personalizado:***
+   > ---
+   > ![alt text](readmeFiles/images/014.png)
 
 
-![alt text](readmeFiles/images/007.png)
-![alt text](readmeFiles/images/008.png)
-![alt text](readmeFiles/images/009.png)
-![alt text](readmeFiles/images/010.png)
-![alt text](readmeFiles/images/011.png)
-![alt text](readmeFiles/images/012.png)
-![alt text](readmeFiles/images/013.png)
-![alt text](readmeFiles/images/014.png)
-![alt text](readmeFiles/images/015.png)
-![alt text](readmeFiles/images/016.png)
-![alt text](readmeFiles/images/017.png)
+7) Ao executar o vídeo, as legendas são geradas automaticamente e exibidas em tempo real ou próximo ao tempo real, de acordo com a configuração do parâmetro **Limite parcial estável**:
 
+   > ![alt text](readmeFiles/images/015.png)
 
+8) Existe um recurso muito interessante para os desenvolvedores que é o **código de exemplo**, permitindo a integração das aplicações com o serviço de legendagem:
 
+   > ![alt text](readmeFiles/images/016.png)
 
-Na página Introdução à Fala, em Fala para texto, localize Conversão de fala em texto em tempo real. Selecione Experimentar conversão de voz em texto em tempo real.
+9) Além disso, todo o texto que foi gerado pode ser acessado através da opção **legenda detectada** e, inclusive, pode ser baixado em um arquivo .txt:
 
-Introdução ao Speech
+   > ![alt text](readmeFiles/images/017.png)
 
-Em Escolher arquivos de áudio, selecione Procurar arquivos e navegue até a pasta onde você salvou o arquivo. Selecione WhatAICanDo.m4a e, em seguida, Abrir.
+<br>
 
-Procurar arquivos
+## LAB 1 - Conclusão
 
-O serviço de Fala transcreve e exibe o texto em tempo real. Se você tiver áudio no computador, poderá ouvir a gravação enquanto o texto está sendo transcrito.
-Revise a saída, que deve ter reconhecido e transcrito com sucesso o áudio em texto.
+Neste estudo, explorei o serviço Azure Speech Studio, com foco especial na sua capacidade de legendar através da conversão de fala em texto. Esta funcionalidade é uma ferramenta poderosa que pode ser aplicada em diversas situações, desde a transcrição de reuniões e conferências até a criação de legendas para vídeos.
 
-Nota Se você receber uma mensagem de erro, aguarde alguns minutos antes de tentar novamente. Leva um pouco de tempo para que o recurso Fala esteja disponível para primeiro uso.
+No entanto, é importante lembrar que o Azure Speech Studio é muito mais do que apenas um serviço de transcrição. Ele oferece uma gama de outras funcionalidades que não foram abordadas em detalhe neste estudo, mas que são igualmente valiosas. Estas incluem a conversão de texto em fala, a tradução de fala e a personalização do modelo de fala, entre outras.
 
-Neste exercício, você criou um recurso de Fala de IA no Speech Studio. Em seguida, você usou o serviço de conversão de fala em tempo real para texto para transcrever uma gravação de áudio. Você pôde ver a transcrição de texto sendo gerada à medida que o arquivo de áudio era reproduzido.
+A versatilidade do Azure Speech Studio torna-o uma ferramenta indispensável para qualquer pessoa ou organização que procure melhorar a acessibilidade, a eficiência e a comunicação. Encorajos os leitores a explorarem estas outras funcionalidades para descobrir como elas podem ser aplicadas para atender às suas necessidades específicas.
 
-Arrumar
-Se você não pretende fazer mais exercícios, exclua todos os recursos que não são mais necessários. Isso evita o acúmulo de custos desnecessários.
-
-Abra o portal do Azure e selecione o grupo de recursos que contém o recurso que você criou.
-Selecione o recurso e selecione Excluir e, em seguida, Sim para confirmar. O recurso é excluído.
-Saiba Mais
-Este exercício demonstrou apenas algumas das capacidades do serviço de Fala. Para saber mais sobre o que você pode fazer com esse serviço, consulte a página Fala.
-
-
+Em resumo, o Azure Speech Studio é uma ferramenta robusta e multifuncional que tem o potencial de transformar a maneira como interagimos com a tecnologia e uns com os outros. Através da exploração contínua e da experimentação com suas diversas funcionalidades, podemos continuar a inovar e a melhorar nossas práticas de comunicação.
 
 
 
