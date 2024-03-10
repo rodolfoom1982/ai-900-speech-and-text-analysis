@@ -19,7 +19,7 @@ Para realizar estes laboratórios, eu precisei criar uma [Subscrição do Micros
 
 A Microsoft permite criar uma subscrição de teste, na qual vários serviços podem ser experimentados gratuitamente por 12 meses, além de receber $200 para serem utilizados nos primeiros 30 dias.
 
-<br>
+---
 
 ## LAB 1 - Introdução
 
@@ -135,6 +135,47 @@ A versatilidade do Azure Speech Studio torna-o uma ferramenta indispensável par
 
 Em resumo, o Azure Speech Studio é uma ferramenta robusta e multifuncional que tem o potencial de transformar a maneira como interagimos com a tecnologia e uns com os outros. Através da exploração contínua e da experimentação com suas diversas funcionalidades, podemos continuar a inovar e a melhorar nossas práticas de comunicação.
 
+---
+
+## LAB 2 - Introdução
+
+O Processamento de Linguagem Natural (PNL) é um ramo da IA que lida com a linguagem escrita e falada. Você pode usar a PNL para criar soluções que extraem significado semântico do texto e/ou da fala ou que formulem respostas significativas em linguagem natural.
+
+O PNL pode ser utilizado, por exemplo, para realizar a análise de avaliações enviadas pelos clientes de um determinado serviço prestado, onde é possível identificar frases-chave, determinar quais avaliações são positivas e quais são negativas ou analisar o texto de revisão em busca de menções a entidades conhecidas, como locais ou pessoas.
+
+O Serviço de Linguagem de IA do Azure inclui análise de texto e recursos de PNL. Estes incluem a identificação de frases-chave no texto e a classificação do texto com base no sentimento.
+
+Neste laboratório, eu explorei os recursos da Linguagem de IA do Azure analisando alguns exemplos de avaliações de hotéis, utilizando Azure Language Studio para entender se as avaliações são majoritariamente positivas ou negativas.
+
+<br>
+
+## LAB 2 - Aprovisionamento dos recursos do Azure Language Service
+
+Para executar o LAB 1, primeiramente, precisei aprovisionar o serviço **Azure Language Service**, através os seguintes passos:
+
+> [!NOTE]
+> Ao selecionar o parâmetro ***Pricing tier*** (ou **Nível de preço**), secolha a opção **S...** grátis somente se a opção **F0** não estiver disponível
+
+1) Acessei o [Azure Portal](https://portal.azure.com/) e efetuei o login com a minha conta Microsoft
+2) Efetuei as configurações conforme apresentadas abaixo:
+   
+   > ![alt text](readmeFiles/gifs/018.gif)
+
+3) O serviço foi aprovisionado quando recebi a mensagem **Your deployment is complete**
+
+   > ![alt text](readmeFiles/images/019.png)
+
+
+
+## LAB 2 - Explorando a análise de sentimentos com o Azure Language Studio
+
+1) Acessei o [Azure Language Studio](https://language.cognitive.azure.com/?azure-portal=true/)
+2) Logo após logar com minha conta Microsoft, tive que associar o serviço Languange que aprovisionei [anteriormente](#LAB-2---Aprovisionamento-dos-recursos-do-Azure-Language-Service):
+
+   > ![](readmeFiles/readmeFiles/images/020.pngf)
+
+
+# IMAGENS
 
 
 
@@ -146,12 +187,6 @@ Em resumo, o Azure Speech Studio é uma ferramenta robusta e multifuncional que 
 
 
 
-
-
-
-
-![alt text](readmeFiles/gifs/018.gif)
-![alt text](readmeFiles/images/019.png)
 ![alt text](readmeFiles/images/020.png)
 ![alt text](readmeFiles/images/021.png)
 ![alt text](readmeFiles/images/022.png)
@@ -159,3 +194,7 @@ Em resumo, o Azure Speech Studio é uma ferramenta robusta e multifuncional que 
 ![alt text](readmeFiles/images/024.png)
 ![alt text](readmeFiles/images/025.png)
 ![alt text](readmeFiles/images/026.png)
+
+---
+
+# Fim
