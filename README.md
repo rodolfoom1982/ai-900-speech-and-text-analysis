@@ -15,7 +15,9 @@ Este desafio é o de número 3 do bootcamp e consiste na execução prática de 
 
 ## Acessos necessários
 
-Para realizar estes laboratórios, é necessário criar uma [Subscrição do Microsoft Azure](https://azure.microsoft.com/)
+Para realizar estes laboratórios, eu precisei criar uma [Subscrição do Microsoft Azure](https://azure.microsoft.com/)
+
+A Microsoft permite criar uma subscrição de teste, na qual vários serviços podem ser experimentados gratuitamente por 12 meses, além de receber $200 para serem utilizados nos primeiros 30 dias.
 
 <br>
 
@@ -23,22 +25,22 @@ Para realizar estes laboratórios, é necessário criar uma [Subscrição do Mic
 
 O serviço de Fala de IA do Azure transcreve fala em texto e texto em fala audível.
 
-Você pode usar o AI Speech para criar um aplicativo que possa transcrever anotações de reuniões ou gerar texto a partir da gravação de entrevistas.
+Podemos utilizar o AI Speech para criar um aplicativo que possa transcrever anotações de reuniões ou gerar texto a partir da gravação de entrevistas.
 
-Neste laboratório, serão abordados os recursos do Azure AI Speech usando o Azure AI Speech Studio.
+Neste laboratório, abordei, especificamente, os recursos do Azure AI Speech dentro do Azure AI Speech Studio para realizar a legendagem automática de um vídeo.
 
 <br>
 
 ## LAB 1 - Aprovisionamento dos recursos do Azure AI Service
 
-Para executar o LAB 1 é necessário aprovisionar o serviço Azure IA Service, atravé os seguintes passos:
+Para executar o LAB 1, primeiramente, precisei aprovisionar o serviço Azure IA Service, através os seguintes passos:
 
-1) Acesse o [Azure Portal](https://portal.azure.com/) e efetue o login com a sua conta Microsoft
-2) Efetue as configurações conforme apresentadas abaixo:
+1) Acessei o [Azure Portal](https://portal.azure.com/) e efetuei o login com a minha conta Microsoft
+2) Efetuei as configurações conforme apresentadas abaixo:
    
    > ![alt text](readmeFiles/gifs/001.gif)
 
-3) O serviço estará aprovisionado quando você ver a mensagem **Your deployment is complete**
+3) O serviço foi aprovisionado quando recebi a mensagem **Your deployment is complete**
 
    > ![alt text](readmeFiles/images/002.png)
 
@@ -46,8 +48,8 @@ Para executar o LAB 1 é necessário aprovisionar o serviço Azure IA Service, a
 
 ## LAB 1 - Explorando a conversão de voz em texto no Speech Studio (legendagem)
 
-1) Acessar o [Azure AI Speech Studio](https://speech.microsoft.com/)
-2) Aqui é necessário associar o AI Speech Studio ao recurso Azure IA Service, que foi aprovisionado [anteriormente](#Aprovisionamento-dos-recursos-do-Azure-AI-Service):
+1) Acessei o [Azure AI Speech Studio](https://speech.microsoft.com/)
+2) Aqui foi necessário associar o AI Speech Studio ao recurso Azure IA Service, que aprovisionei [anteriormente](#Aprovisionamento-dos-recursos-do-Azure-AI-Service):
    
    > ***Mudar o recurso:***
    > ---
@@ -59,7 +61,7 @@ Para executar o LAB 1 é necessário aprovisionar o serviço Azure IA Service, a
    > ---
    > ![alt text](readmeFiles/images/004.png)
 
-3) Selecionar a *feature* **Legendar com conversão de fala em texto**:
+3) Selecionei a *feature* **Legendar com conversão de fala em texto**:
 
    > ![alt text](readmeFiles/images/005.png)
 
@@ -109,7 +111,7 @@ Para executar o LAB 1 é necessário aprovisionar o serviço Azure IA Service, a
    > ![alt text](readmeFiles/images/014.png)
 
 
-7) Ao executar o vídeo, as legendas são geradas automaticamente e exibidas em tempo real ou próximo ao tempo real, de acordo com a configuração do parâmetro **Limite parcial estável**:
+7) Quando executei o vídeo, as legendas foram geradas automaticamente e exibidas em tempo real ou próximo ao tempo real, de acordo com a configuração que fiz no parâmetro **Limite parcial estável**:
 
    > ![alt text](readmeFiles/images/015.png)
 
