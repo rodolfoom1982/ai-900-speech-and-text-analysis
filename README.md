@@ -1,5 +1,18 @@
 # AI-900: Análise de Sentimentos com Language Studio no Azure AI
 
+![Static Badge](https://img.shields.io/badge/Status_Projeto:-Concluído_(10/Mar/2024)-green)
+
+![Static Badge](https://img.shields.io/badge/Inteligência_Artificial_(IA)-blue)
+![Static Badge](https://img.shields.io/badge/IA_Generativa-blue)
+![Static Badge](https://img.shields.io/badge/IA_Speech_(Legendagem)-blue)
+![Static Badge](https://img.shields.io/badge/IA_Análise_de_Sentimentos-blue)
+
+![Static Badge](https://img.shields.io/badge/Microsoft_Azure-orange)
+![Static Badge](https://img.shields.io/badge/Azure_AI_Services-orange)
+![Static Badge](https://img.shields.io/badge/Azure_Language_Services-orange)
+![Static Badge](https://img.shields.io/badge/Azure_Speech_Studio-orange)
+![Static Badge](https://img.shields.io/badge/Azure_Language_Studio-orange)
+
 <br>
 
 ## Índice
