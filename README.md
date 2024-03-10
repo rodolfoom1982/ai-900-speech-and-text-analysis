@@ -44,15 +44,47 @@ Você pode usar o AI Speech para criar um aplicativo que possa transcrever anota
 
 Neste laboratório, serão abordados os recursos do Azure AI Speech usando o Azure AI Speech Studio.
 
+<br>
 
 ## LAB 1 - Explorando a conversão de voz em texto no Speech Studio
 
 1) Acessar o [Azure AI Speech Studio](https://speech.microsoft.com/)
 2) Aqui é necessário associar o AI Speech Studio ao recurso Azure IA Service, que foi aprovisionado [anteriormente](#Aprovisionamento-dos-recursos-do-Azure-AI-Service):
-
+   
+   > ***Mudar o recurso:***
+   > ---
    > ![alt text](readmeFiles/images/003.png)
+
    ---
+   
+   > ***Selecionar o recurso:***
+   > ---
    > ![alt text](readmeFiles/images/004.png)
+
+3) Selecionar a *feature* **Legendar com conversão de fala em texto**:
+
+   > ![alt text](readmeFiles/images/005.png)
+
+4) Esta *feature* permite utilizar vídeos de amostra previamente carregados. Porém, optei por carregar um vídeo próprio para testar a efetividade (o vídeo que utilizei está disponível neste [link](inputs/videoSpeechToText.mp4):
+
+   > ![alt text](readmeFiles/images/006.png)
+
+
+
+
+![alt text](readmeFiles/images/007.png)
+![alt text](readmeFiles/images/008.png)
+![alt text](readmeFiles/images/009.png)
+![alt text](readmeFiles/images/010.png)
+![alt text](readmeFiles/images/011.png)
+![alt text](readmeFiles/images/012.png)
+![alt text](readmeFiles/images/013.png)
+![alt text](readmeFiles/images/014.png)
+![alt text](readmeFiles/images/015.png)
+![alt text](readmeFiles/images/016.png)
+![alt text](readmeFiles/images/017.png)
+
+
 
 
 Na página Introdução à Fala, em Fala para texto, localize Conversão de fala em texto em tempo real. Selecione Experimentar conversão de voz em texto em tempo real.
@@ -92,20 +124,9 @@ Este exercício demonstrou apenas algumas das capacidades do serviço de Fala. P
 
 
 
-![alt text](readmeFiles/images/004.png)
-![alt text](readmeFiles/images/005.png)
-![alt text](readmeFiles/images/006.png)
-![alt text](readmeFiles/images/007.png)
-![alt text](readmeFiles/images/008.png)
-![alt text](readmeFiles/images/009.png)
-![alt text](readmeFiles/images/010.png)
-![alt text](readmeFiles/images/011.png)
-![alt text](readmeFiles/images/012.png)
-![alt text](readmeFiles/images/013.png)
-![alt text](readmeFiles/images/014.png)
-![alt text](readmeFiles/images/015.png)
-![alt text](readmeFiles/images/016.png)
-![alt text](readmeFiles/images/017.png)
+
+
+
 ![alt text](readmeFiles/gifs/018.gif)
 ![alt text](readmeFiles/images/019.png)
 ![alt text](readmeFiles/images/020.png)
