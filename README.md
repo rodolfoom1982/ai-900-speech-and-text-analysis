@@ -65,7 +65,7 @@ Neste laboratório, serão abordados os recursos do Azure AI Speech usando o Azu
 
    > ![alt text](readmeFiles/images/005.png)
 
-4) Esta *feature* permite utilizar vídeos de amostra previamente carregados. Porém, optei por carregar um vídeo próprio para testar a efetividade (o vídeo que utilizei está disponível neste [link](inputs/videoSpeechToText.mp4):
+4) Esta *feature* permite utilizar vídeos de amostra previamente carregados. Porém, optei por carregar um vídeo próprio para testar a efetividade (o vídeo que utilizei está disponível neste [link](https://github.com/rodolfoom1982/ai-900-speech-and-text-analysis/blob/main/inputs/videoSpeechToText.mp4):
 
    > ![alt text](readmeFiles/images/006.png)
 
