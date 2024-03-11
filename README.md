@@ -73,7 +73,7 @@ Para executar o LAB 1, primeiramente, precisei aprovisionar o serviço Azure IA 
    
    > ![alt text](readmeFiles/gifs/001.gif)
 
-3) O serviço foi aprovisionado quando recebi a mensagem **Your deployment is complete**
+3) O serviço foi aprovisionado quando recebi a mensagem **Your deployment is complete**:
 
    > ![alt text](readmeFiles/images/002.png)
 
