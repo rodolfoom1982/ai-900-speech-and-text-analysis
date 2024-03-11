@@ -39,8 +39,8 @@ Os alunos deste bootcamp tem, como principal objetivo, se prepararem para o exam
 
 Este desafio é o de número 3 do bootcamp e consiste na execução prática de 2 exercícios, relacionados aos seguintes temas:
 
-- [LAB 1: Azure Speech Studio](http://aka.ms/ai900-bing-copilot): experimentar os recursos do Azure AI Speech usando o Azure AI Speech Studio
-- [LAB 2: Azure Language Studio](http://aka.ms/ai900-azure-openai): explorar os recursos da Linguagem de IA do Azure
+- [LAB 1: Azure Speech Studio](http://aka.ms/ai900-speech): experimentar os recursos do Azure AI Speech usando o Azure AI Speech Studio
+- [LAB 2: Azure Language Studio](http://aka.ms/ai900-text-analysis): explorar os recursos da Linguagem de IA do Azure
 
 <br>
 
