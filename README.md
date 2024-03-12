@@ -5,6 +5,7 @@
 ![Static Badge](https://img.shields.io/badge/Inteligência_Artificial_(IA)-blue)
 ![Static Badge](https://img.shields.io/badge/IA_Generativa-blue)
 ![Static Badge](https://img.shields.io/badge/IA_Speech_(Legendagem)-blue)
+![Static Badge](https://img.shields.io/badge/IA_Processamento_de_Linguagem_Natural-blue)
 ![Static Badge](https://img.shields.io/badge/IA_Análise_de_Sentimentos-blue)
 
 ![Static Badge](https://img.shields.io/badge/Microsoft_Azure-orange)
@@ -72,11 +73,11 @@ Para executar o LAB 1, primeiramente, precisei aprovisionar o serviço Azure IA 
 1) Acessei o [Azure Portal](https://portal.azure.com/) e efetuei o login com a minha conta Microsoft
 2) Efetuei as configurações conforme apresentadas abaixo:
    
-   > ![alt text](readmeFiles/gifs/001.gif)
+   > ![](readmeFiles/gifs/001.gif)
 
 3) O serviço foi aprovisionado quando recebi a mensagem **Your deployment is complete**:
 
-   > ![alt text](readmeFiles/images/002.png)
+   > ![](readmeFiles/images/002.png)
 
 <br>
 
@@ -87,75 +88,75 @@ Para executar o LAB 1, primeiramente, precisei aprovisionar o serviço Azure IA 
    
    > ***Mudar o recurso:***
    > ---
-   > ![alt text](readmeFiles/images/003.png)
+   > ![](readmeFiles/images/003.png)
 
    ---
    
    > ***Selecionar o recurso:***
    > ---
-   > ![alt text](readmeFiles/images/004.png)
+   > ![](readmeFiles/images/004.png)
 
 3) Selecionei a *feature* **Legendar com conversão de fala em texto**:
 
-   > ![alt text](readmeFiles/images/005.png)
+   > ![](readmeFiles/images/005.png)
 
 4) Esta *feature* permite utilizar vídeos de amostra previamente carregados. Porém, optei por carregar um vídeo próprio para testar a efetividade (o vídeo que utilizei está disponível neste [link](inputs/videoSpeechToText.mp4):
 
-   > ![alt text](readmeFiles/images/006.png)
+   > ![](readmeFiles/images/006.png)
 
 
 5) Existem vários parâmetros que podem ser configurados para melhorar a legendagem do vídeo:
 
-   > ![alt text](readmeFiles/images/007.png)
+   > ![](readmeFiles/images/007.png)
 
 6) Seguem os detalhes de cada uma das configurações de legendagem:
 
    > ***Limite parcial estável:***
    > ---
-   > ![alt text](readmeFiles/images/009.png)
+   > ![](readmeFiles/images/009.png)
 
    ---
    
    > ***Identificação de idioma:***
    > ---
-   > ![alt text](readmeFiles/images/010.png)
+   > ![](readmeFiles/images/010.png)
 
    ---
    
    > ***Identificação de idioma no início:***
    > ---
-   > ![alt text](readmeFiles/images/011.png)
+   > ![](readmeFiles/images/011.png)
 
    ---
    
    > ***Identificação de idioma contínuo:***
    > ---
-   > ![alt text](readmeFiles/images/012.png)
+   > ![](readmeFiles/images/012.png)
 
    ---
    
    > ***Lista de frases:***
    > ---
-   > ![alt text](readmeFiles/images/013.png)
+   > ![](readmeFiles/images/013.png)
 
    ---
    
    > ***Ponto de extremidade personalizado:***
    > ---
-   > ![alt text](readmeFiles/images/014.png)
+   > ![](readmeFiles/images/014.png)
 
 
 7) Quando executei o vídeo, as legendas foram geradas automaticamente e exibidas em tempo real ou próximo ao tempo real, de acordo com a configuração que fiz no parâmetro **Limite parcial estável**:
 
-   > ![alt text](readmeFiles/images/015.png)
+   > ![](readmeFiles/images/015.png)
 
 8) Existe um recurso muito interessante para os desenvolvedores que é o **código de exemplo**, permitindo a integração das aplicações com o serviço de legendagem:
 
-   > ![alt text](readmeFiles/images/016.png)
+   > ![](readmeFiles/images/016.png)
 
 9) Além disso, todo o texto que foi gerado pode ser acessado através da opção **legenda detectada** e, inclusive, pode ser baixado em um arquivo .txt:
 
-   > ![alt text](readmeFiles/images/017.png)
+   > ![](readmeFiles/images/017.png)
 
 <br>
 
@@ -195,11 +196,11 @@ Para executar o LAB 1, primeiramente, precisei aprovisionar o serviço **Azure L
 1) Acessei o [Azure Portal](https://portal.azure.com/) e efetuei o login com a minha conta Microsoft
 2) Efetuei as configurações conforme apresentadas abaixo:
    
-   > ![alt text](readmeFiles/gifs/018.gif)
+   > ![](readmeFiles/gifs/018.gif)
 
 3) O serviço foi aprovisionado quando recebi a mensagem **Your deployment is complete**
 
-   > ![alt text](readmeFiles/images/019.png)
+   > ![](readmeFiles/images/019.png)
 
 <br>
 
@@ -212,7 +213,7 @@ Para executar o LAB 1, primeiramente, precisei aprovisionar o serviço **Azure L
 
 3) Selecionei a *feature* **Analyze sentiment and mine opinions**, que fica dentro do grupo **Classify text**:
 
-     > ![alt text](readmeFiles/images/021.png)
+     > ![](readmeFiles/images/021.png)
 
 4) Neste primeiro momento, quis ver como o Language Studio realiza a análise de uma avaliação negativa do cliente para um hotel. Para tanto, peguei uma avaliação aleatória *ipsis litteris* no site [Trip Advisor](https://www.tripadvisor.com), cujo texto retorna o seguinte:
    > Este acima é somente um trecho da avaliação, que pode ser visualizada, de forma completa, [aqui](inputs/texto01AnalyzeSentiment.txt)
@@ -229,21 +230,21 @@ Para executar o LAB 1, primeiramente, precisei aprovisionar o serviço **Azure L
 
 5) Selecionei o idioma da avaliação no campo ***Select text language*** e marquei a opção ***Enable opinion mining***, que permite ao serviço mineirar opiniões constantes na avaliação:
 
-   > ![alt text](readmeFiles/images/022.png)
+   > ![](readmeFiles/images/022.png)
 
 6) Antes de continuar, tive que marcar que estava ciente de que a execução deste serviço iria consumir recursos da minha Azure Subscription:
 
-   > ![alt text](readmeFiles/images/023.png)
+   > ![](readmeFiles/images/023.png)
 
 7) O resultado foi muito interessante:
 
    O Language Studio identificou que a avaliação possui um mix de sentimentos, sendo predominantemente de pontos negativos (78%), além de 17% de pontos positivos e 5% de neutralidade:
    
-   > ![alt text](readmeFiles/images/024A.png)
+   > ![](readmeFiles/images/024A.png)
    
    Além disso, ele fez uma análise sentença a sentença, procurando um nexo entre os termos das opiniões dadas. Por exemplo, para a expressão **péssima experiência**, ele identificou uma negatividade de 99%. Já na expressão **propaganda enganosa**, a negatividade também foi percebida (94%)
    
-   > ![alt text](readmeFiles/images/024B.png)
+   > ![](readmeFiles/images/024B.png)
 
 8) Resolvi fazer um novo teste. Desta vez, utilizei uma avaliação positiva extraída *ipsis litteris*, também, do site [Trip Advisor](https://www.tripadvisor.com):
 
@@ -256,11 +257,11 @@ Para executar o LAB 1, primeiramente, precisei aprovisionar o serviço **Azure L
 
 9) Mantive os mesmos parâmetros da pesquisa anterior:
 
-    > ![alt text](readmeFiles/images/025.png)
+    > ![](readmeFiles/images/025.png)
 
 10) Como resultado, a análise foi predominante positiva (99%), o que era esperado. E isso pode ser comprovado, também, através da mineração das opiniões por frase, como na expressão **melhor viagem**, com 100% de positividade:
 
-    > ![alt text](readmeFiles/images/026.png)
+    > ![](readmeFiles/images/026.png)
 
 <br>
 
@@ -286,3 +287,7 @@ Com suas diversas funcionalidades, o Azure Language Studio ele abre um mundo de 
 <br>
 
 ## Certificados e Certificações Associados ao Projeto
+
+![](https://github.com/rodolfoom1982/meus-certificados/blob/main/dio-bootcamp-ai-900-azure-ai-fundamentals/conceitos-de-processamento-de-linguagem-natural.png)
+
+![](https://github.com/rodolfoom1982/meus-certificados/blob/main/dio-bootcamp-ai-900-azure-ai-fundamentals/analise-de-sentimentos-com-language-studio-no-azure-ai.jpg)
