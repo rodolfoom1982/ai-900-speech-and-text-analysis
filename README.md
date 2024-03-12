@@ -27,7 +27,8 @@
 - [LAB 2 - Aprovisionamento dos recursos do Azure Language Service](#LAB-2---Aprovisionamento-dos-recursos-do-Azure-Language-Service)
 - [LAB 2 - Explorando a análise de sentimentos com o Azure Language Studio](#LAB-2---Explorando-a-análise-de-sentimentos-com-o-Azure-Language-Studio)
 - [LAB 2 - Conclusão](#LAB-2---Conclusão)
-- [Certificados / Certificações Associados ao Projeto](#Certificados-/-Certificações-Associados-ao-Projeto)
+- [Limpando o ambiente](#Limpando-o-ambiente)
+- [Certificados e Certificações Associados ao Projeto](#Certificados-e-Certificações-Associados-ao-Projeto)
 
 <br>
 
@@ -277,4 +278,11 @@ Com suas diversas funcionalidades, o Azure Language Studio ele abre um mundo de 
 
 <br>
 
-## Certificados / Certificações Associados ao Projeto
+## Limpando o ambiente
+
+> [!WARNING]
+> Após a conclusão do projeto, se não for reaproveitar os recursos utilizados, é aconselhável excluí-los, bem como os grupos de recursos, para que não haja cobranças indevidas na sua Azure Subscription
+
+<br>
+
+## Certificados e Certificações Associados ao Projeto
