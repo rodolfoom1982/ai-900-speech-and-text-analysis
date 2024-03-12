@@ -21,7 +21,7 @@
 - [Acessos necessários](#Acessos-necessários)
 - [LAB 1 - Introdução](#LAB-1---Introdução)
 - [LAB 1 - Aprovisionamento dos recursos do Azure AI Service](#LAB-1---Aprovisionamento-dos-recursos-do-Azure-AI-Service)
-- [LAB 1 - Explorando a conversão de voz em texto no Speech Studio (legendagem)](#LAB-1---Explorando-a-conversão-de-voz-em-texto-no-Speech-Studio-(legendagem))
+- [LAB 1 - Explorando a conversão de voz em texto no Speech Studio (legendagem)](#LAB-1---Explorando-a-conversão-de-voz-em-texto-no-Speech-Studio---Legendagem)
 - [LAB 1 - Conclusão](#LAB-1---Conclusão)
 - [LAB 2 - Introdução](#LAB-2---Introdução)
 - [LAB 2 - Aprovisionamento dos recursos do Azure Language Service](#LAB-2---Aprovisionamento-dos-recursos-do-Azure-Language-Service)
@@ -80,7 +80,7 @@ Para executar o LAB 1, primeiramente, precisei aprovisionar o serviço Azure IA 
 
 <br>
 
-## LAB 1 - Explorando a conversão de voz em texto no Speech Studio (legendagem)
+## LAB 1 - Explorando a conversão de voz em texto no Speech Studio - Legendagem
 
 1) Acessei o [Azure AI Speech Studio](https://speech.microsoft.com/)
 2) Aqui foi necessário associar o AI Speech Studio ao recurso Azure IA Service, que aprovisionei [anteriormente](#Aprovisionamento-dos-recursos-do-Azure-AI-Service):
