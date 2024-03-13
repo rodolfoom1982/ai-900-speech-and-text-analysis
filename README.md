@@ -291,3 +291,5 @@ Com suas diversas funcionalidades, o Azure Language Studio ele abre um mundo de 
 ![](https://github.com/rodolfoom1982/meus-certificados/blob/main/dio-bootcamp-ai-900-azure-ai-fundamentals/conceitos-de-processamento-de-linguagem-natural.png)
 
 ![](https://github.com/rodolfoom1982/meus-certificados/blob/main/dio-bootcamp-ai-900-azure-ai-fundamentals/analise-de-sentimentos-com-language-studio-no-azure-ai.jpg)
+
+![](https://github.com/rodolfoom1982/meus-certificados/blob/main/dio-bootcamp-ai-900-azure-ai-fundamentals/microsoft-azure-ai-fundamentals.png)
